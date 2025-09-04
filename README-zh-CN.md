@@ -70,7 +70,7 @@
 
 #### BLE MIDI
 
-- 连接蓝牙设备，选择“ESP32 Desktop DrumKit v1”
+- 连接蓝牙设备，选择“ESP32 Desktop DrumKit v0”
 - DAW或手机MIDI应用可直接识别
 
 ### 4. 抗干扰/误触发说明
