@@ -46,7 +46,7 @@ This project is suitable for DIY music enthusiasts, electronic drum developers, 
 - Designed as a miniature version of a real electronic drum set
 - Main flaw: pads/cymbals don't properly account for vibration transmission
 - Base plate split into L/R sections due to 3D printer size limitations
-- L/R circuits connected via magnetic pogo pin connectors (2/4-pin with screw holes)
+- L/R circuits connected via magnetic connectors (2/4-pin with screw holes, producer: pogopin)
 
 ---
 
