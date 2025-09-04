@@ -70,7 +70,7 @@ This project is suitable for DIY music enthusiasts, electronic drum developers, 
 
 #### BLE MIDI
 
-- Connect Bluetooth device to "ESP32 Desktop DrumKit v1"
+- Connect Bluetooth device to "ESP32 Desktop DrumKit v0"
 - DAW or mobile MIDI apps can directly recognize
 
 ### 4. Anti-Interference Notes
