@@ -1,6 +1,6 @@
 # ESP32 Desktop Drumkit v0 Prototype
 
-> **Languages/语言**: [English](README.md) | [简体中文](README.zh-CN.md)
+> **Languages/语言**: [English](README-en.md) | [简体中文](README-zh-CN.md)
 
 This is the English version of the README.
 
