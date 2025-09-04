@@ -34,6 +34,18 @@
 - **电池**：可选锂电池供电，带电池采样电路
 - **其他**：LED、蜂鸣器、按键，外设接口见 `def.h`
 
+### 如何接入传感器/外部电路
+
+- 请参考[Images of Drumkit](https://github.com/WilliTourt/ESP32-Desktop-Drumkit-v0-Prototype/tree/main/Images%20of%20Drumkit)以及[Hardware_PCB](https://github.com/WilliTourt/ESP32-Desktop-Drumkit-v0-Prototype/tree/main/Hardware_PCB)中的图片。外部电路实际上就是用一种可拔插的方式（使用了快速接头）将压电片通过一个简单的分压电路板，然后接到主控板上。
+- 主板上的主要IO叫做PIEZO以及OUT，PIEZO即压电片的ADC输入口，OUT本来用于LED灯效相关，但后来没有做（考虑到这只是一个粗糙的原型）。
+
+### 3D 外壳文件
+
+- 所有部件组装好的最终效果如[Images of Drumkit](https://github.com/WilliTourt/ESP32-Desktop-Drumkit-v0-Prototype/tree/main/Images%20of%20Drumkit)中的图片所示。
+- 设计了一种看起来是真实电鼓的微缩版本的外观。
+- 鼓垫和镲片都没有考虑到振动传导，这是这个原型的主要缺陷。
+- 底板被分为了L和R两部分，因为打印机无法打印这么长的底板。L和R的电路通过两个磁性接口来连接。此接口的厂家名叫pogopin，我使用的是2和4PIN（带螺丝孔）的。
+
 ---
 
 ## 软件说明
