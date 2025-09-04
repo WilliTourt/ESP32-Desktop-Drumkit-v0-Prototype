@@ -33,6 +33,20 @@ This project is suitable for DIY music enthusiasts, electronic drum developers, 
 - **Serial Chip**: CH340 (or other USB-UART converters)
 - **Battery**: Optional lithium battery with voltage monitoring circuit
 - **Others**: LEDs, buzzer, buttons - see `def.h` for peripheral interfaces
+- 
+### Sensor Connection/External Circuit
+
+- Refer to [Images of Drumkit](https://github.com/WilliTourt/ESP32-Desktop-Drumkit-v0-Prototype/tree/main/Images%20of%20Drumkit) and [Hardware_PCB](https://github.com/WilliTourt/ESP32-Desktop-Drumkit-v0-Prototype/tree/main/Hardware_PCB)
+- The external circuit uses quick-connect plugs to interface piezo elements through a simple voltage divider board before connecting to the main controller
+- Main board IOs are labeled PIEZO (ADC input for piezo elements) and OUT (originally intended for LED effects but unused in this prototype)
+
+### 3D Enclosure Files
+
+- Final assembled appearance shown in [Images of Drumkit](https://github.com/WilliTourt/ESP32-Desktop-Drumkit-v0-Prototype/tree/main/Images%20of%20Drumkit)
+- Designed as a miniature version of a real electronic drum set
+- Main flaw: pads/cymbals don't properly account for vibration transmission
+- Base plate split into L/R sections due to 3D printer size limitations
+- L/R circuits connected via magnetic pogo pin connectors (2/4-pin with screw holes)
 
 ---
 
