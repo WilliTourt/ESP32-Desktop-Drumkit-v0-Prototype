@@ -1,5 +1,9 @@
 # ESP32 Desktop Drumkit v0 Prototype
 
+> **Language/语言**: [English](README.md) | [简体中文](README-zh-CN.md)
+
+这是README的中文版本。
+
 ## 项目简介
 
 这是一个基于 ESP32 的电子鼓垫原型项目，支持 BLE MIDI 与串口 MIDI 输出。项目包含多路压电鼓垫/镲片采集，力度归一化，串口与 BLE 双模式输出，以及电池管理功能。  
